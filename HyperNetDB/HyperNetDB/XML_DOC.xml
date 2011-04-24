@@ -1,0 +1,57 @@
+<REPEATED_COMMENTS>
+<WHERE_SINTAX>
+<p></p>
+		 <p><b>WHERE expression:</b> Is an C# expresion for making a where as a filter.</p>
+		 Forms: 
+		 <list type="bullet">
+		 <item><description>new object[,]{ {"{FIELDNAME}",{operand},{parameter}},... } Is the same as "field operand parameter AND ..."</description></item> 
+		 <item><description>null Means the same as no where condition.</description></item>
+		 </list>
+		 Operands:
+		 <list type="table">
+		 <listheader>
+				<term>Operand</term>
+				<term>Effect</term>
+		 </listheader>
+			<item>
+				<term>=</term>
+				<term>Equality</term>
+			</item>
+			<item>
+				<term>&gt;</term>
+				<term>Value of left field name is greater than right constant value variable</term>
+			</item>
+		 <item>
+				<term>&gt;=</term>
+				<term>Value of left field name is greater or equal than right constant value variable</term>
+		 </item>
+		 <item>
+				<term>&lt;</term>
+				<term>Value of left field name is less than right constant value variable</term>
+			</item>
+		 <item>
+				<term>&lt;=</term>
+				<term>Value of left field name is less or equal than right constant value variable</term>
+			</item>
+		 <item>
+				<term>!=</term>
+				<term>Value of left field name is different than right constant value variable</term>
+		 </item>
+		 </list>
+</WHERE_SINTAX>
+<SET_EXPRESSION>
+<p></p>
+		 <p><b>SET expression:</b> Is an C# expresion for indicate a FIELD with its VALUE.</p>
+		 <p><c>new object[,]{ {"{FIELDNAME}",{parameter}},... }</c> Is the same as "SET field = parameter, ..."</p>
+		 <example>Example 1:
+		 <code>
+		 new object[,]{ {"QTY",0.5m} }
+		 </code>
+		 </example>
+		 <example>Example 2:
+		 <code>
+		 new object[,]{ {"STRNAME","peppers"}, {"QTY",0.5m} }
+		 </code>
+		 </example>		 
+</SET_EXPRESSION>		
+</REPEATED_COMMENTS> 

@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQLInterfaces", "SQLInterfaces.csproj", "{01DB7DA2-7370-431F-8B37-17B2B9780B78}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		ASCII Debug|Any CPU = ASCII Debug|Any CPU
+		ASCII Release|Any CPU = ASCII Release|Any CPU
+		Debug AMD64|Any CPU = Debug AMD64|Any CPU
+		Debug IA64|Any CPU = Debug IA64|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		Release AMD64|Any CPU = Release AMD64|Any CPU
+		Release IA64|Any CPU = Release IA64|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{01DB7DA2-7370-431F-8B37-17B2B9780B78}.ASCII Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01DB7DA2-7370-431F-8B37-17B2B9780B78}.ASCII Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01DB7DA2-7370-431F-8B37-17B2B9780B78}.Debug AMD64|Any CPU.ActiveCfg = Debug|Any CPU
+		{01DB7DA2-7370-431F-8B37-17B2B9780B78}.Debug IA64|Any CPU.ActiveCfg = Debug|Any CPU
+		{01DB7DA2-7370-431F-8B37-17B2B9780B78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01DB7DA2-7370-431F-8B37-17B2B9780B78}.Release AMD64|Any CPU.ActiveCfg = Release|Any CPU
+		{01DB7DA2-7370-431F-8B37-17B2B9780B78}.Release IA64|Any CPU.ActiveCfg = Release|Any CPU
+		{01DB7DA2-7370-431F-8B37-17B2B9780B78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
