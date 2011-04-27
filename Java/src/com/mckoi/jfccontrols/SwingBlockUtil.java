@@ -1,0 +1,130 @@
+/**
+ * com.mckoi.jfccontrols.SwingBlockUtil  23 Aug 2000
+ *
+ * Mckoi SQL Database ( http://www.mckoi.com/database )
+ * Copyright (C) 2000, 2001, 2002  Diehl and Associates, Inc.
+ *
+ * This program is free software; you can redistribute it and/or
+ * modify it under the terms of the GNU General Public License
+ * Version 2 as published by the Free Software Foundation.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License Version 2 for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * Version 2 along with this program; if not, write to the Free Software
+ * Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
+ *
+ * Change Log:
+ * 
+ * 
+ */
+
+package com.mckoi.jfccontrols;
+
+import java.awt.*;
+import javax.swing.SwingUtilities;
+
+/**
+ * Helper class for providing blocking behaviour on the AWT/Swing event
+ * dispatcher thread without freezing up the user interface.  While the call
+ * to 'block' will block with respect to the callee, events will still be
+ * serviced from within the 'block' method.
+ * <p>
+ * I consider this a mild hack.  This class may be incompatible with future
+ * versions of Java if the AWT event mechanism is altered.  It may also not
+ * work happily with non-Sun based implementations of Java.
+ *
+ * @author Tobias Downer
+ */
+
+public class SwingBlockUtil {
+
+  /**
+   * The state we are currently in.
+   */
+  private int block_state = 0;
+
+
+  /**
+   * Utility that blocks the Swing EventDispatchThread, and then emulates the
+   * inner loop of the dispatcher thread itself.  This allows for repaint and
+   * button events to be processed.  When the block has finished, this method
+   * will return and return control to the originating event dispatcher.
+   */
+  public void block() {
+
+    synchronized (this) {
+      if (!SwingUtilities.isEventDispatchThread()) {
+        throw new Error("Not on the event dispatcher.");
+      }
+      if (block_state != 0) {
+        // This situation would occur when a component generates an event (such
+        // as the user pressing a button) that performs a query.  Therefore
+        // there are multi-levels of queries being executed.
+        throw new Error("Can't nest queries.");
+      }
+
+      block_state = 1;
+    }
+
+    EventQueue theQueue = eventQueue();
+    while (isBlocked()) {
+      try {
+        // This is essentially the body of EventDispatchThread
+        AWTEvent event = theQueue.getNextEvent();
+        Object src = event.getSource();
+        // can't call theQueue.dispatchEvent, so I pasted its body here
+        if (event instanceof ActiveEvent) {
+          ((ActiveEvent) event).dispatch();
+        } else if (src instanceof Component) {
+          ((Component) src).dispatchEvent(event);
+        } else if (src instanceof MenuComponent) {
+          ((MenuComponent) src).dispatchEvent(event);
+        } else {
+          System.err.println("unable to dispatch event: " + event);
+        }
+      }
+      catch (Throwable e) {
+        // Any exceptions thrown here are logged, but we don't break the loop.
+        System.err.println("Exception thrown during block util dispatching:");
+        e.printStackTrace(System.err);
+      }
+    }
+
+    block_state = 0;
+
+  }
+
+  /**
+   * Unblocks any call to the 'block' method.  This method can safely be
+   * executed from any thread (even the Swing dispatcher thread).
+   */
+  public void unblock() {
+    // Execute the runnable on the event dispatcher,
+    SwingUtilities.invokeLater(new Runnable() {
+      public void run() {
+        if (block_state == 1) {
+          block_state = 2;
+        }
+      }
+    });
+  }
+
+  /**
+   * Returns true if the event dispatcher is blocked.
+   */
+  private boolean isBlocked() {
+    return block_state <= 1;
+  }
+
+  /**
+   * Returns the current system EventQueue.
+   */
+  private static EventQueue eventQueue() {
+    return Toolkit.getDefaultToolkit().getSystemEventQueue();
+  }
+
+}

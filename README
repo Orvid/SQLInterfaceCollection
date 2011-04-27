@@ -1,0 +1,21 @@
+This is a universal interface for many types of databases, it currently supports the following types of databases:
+
+1. BerklyDB
+2. DB2
+3. Db4o
+4. FirebirdSQL
+5. HyperNetDB
+6. MySql
+7. NeoDatis
+8. PostgreSQL
+9. SQLite
+
+Each of the database types is supported by a single (Integrated) dll, except for SQLite, which has 3 choices of backends. These choices are:
+
+1. System.Data.SQLite
+2. Mono.Data.SQLite
+3. Community.CSharp.SQLite
+
+All of the namespaces match up to their original locations, and shouldn't require any modification to your code. 
+
+This library is written for .Net v3.5.
