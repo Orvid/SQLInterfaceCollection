@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RuleSet Name="Migrated rules for System.Data.SQLite - ManagedOnly (2).ruleset" Description="This rule set was created from the CodeAnalysisRules property for the &quot;StockRelease (Any CPU)&quot; configuration in project &quot;C:\NeoAxis Engine Non-Commercial SDK 0.91\Game\Src\System.Data.Sqlite\System.Data.SQLite\System.Data.SQLite - ManagedOnly.csproj&quot;." ToolsVersion="10.0">
+  <IncludeAll Action="Warning" />
+  <Rules AnalyzerId="Microsoft.Analyzers.ManagedCodeAnalysis" RuleNamespace="Microsoft.Rules.Managed">
+    <Rule Id="CA1003" Action="None" />
+    <Rule Id="CA1008" Action="None" />
+    <Rule Id="CA1308" Action="None" />
+    <Rule Id="CA1309" Action="None" />
+    <Rule Id="CA1502" Action="None" />
+    <Rule Id="CA1704" Action="None" />
+    <Rule Id="CA1709" Action="None" />
+    <Rule Id="CA1711" Action="None" />
+    <Rule Id="CA1717" Action="None" />
+    <Rule Id="CA1801" Action="None" />
+    <Rule Id="CA1822" Action="None" />
+  </Rules>
+</RuleSet>
