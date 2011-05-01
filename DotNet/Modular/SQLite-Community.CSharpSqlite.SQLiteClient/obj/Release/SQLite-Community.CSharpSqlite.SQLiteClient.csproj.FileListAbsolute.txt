@@ -1,0 +1,9 @@
+G:\SQLInterfaces\DotNet\SQLite-Community.CSharpSqlite.SQLiteClient\obj\Release\ResolveAssemblyReference.cache
+G:\SQLInterfaces\DotNet\Bin\SQLite-Community.CSharpSqlite.SQLiteClient.XML
+G:\SQLInterfaces\DotNet\Bin\SQLite-Community.CSharpSqlite.SQLiteClient.pdb
+G:\SQLInterfaces\DotNet\SQLite-Community.CSharpSqlite.SQLiteClient\obj\Release\SQLite-Community.CSharpSqlite.SQLiteClient.pdb
+G:\SQLInterfaces\DotNet\Bin\SQLite-Community.CSharpSqlite.SQLiteClient.netmodule
+G:\SQLInterfaces\DotNet\SQLite-Community.CSharpSqlite.SQLiteClient\obj\Release\SQLite-Community.CSharpSqlite.SQLiteClient.netmodule
+G:\SQLInterfaces\DotNet\Bin\Db4o\SQLite-Community.CSharpSqlite.SQLiteClient.xml
+G:\SQLInterfaces\DotNet\Bin\Db4o\SQLite-Community.CSharpSqlite.SQLiteClient.netmodule
+G:\SQLInterfaces\DotNet\Bin\Db4o\SQLite-Community.CSharpSqlite.SQLiteClient.pdb

@@ -1,0 +1,12 @@
+G:\SQLInterfaces\DotNet\Db4o-Official\obj\Release\ResolveAssemblyReference.cache
+G:\SQLInterfaces\DotNet\Bin\Db4o\Db4o-Official.xml
+G:\SQLInterfaces\DotNet\Bin\Db4o\Db4o-Official.netmodule
+G:\SQLInterfaces\DotNet\Bin\Db4o\Dependancies-Moq.netmodule
+G:\SQLInterfaces\DotNet\Bin\Db4o\Dependancies-Mono.Cecil.netmodule
+G:\SQLInterfaces\DotNet\Bin\Db4o\Dependancies-Mono.Reflection.netmodule
+G:\SQLInterfaces\DotNet\Bin\Db4o\Dependancies-Mono.GetOptions.netmodule
+G:\SQLInterfaces\DotNet\Bin\Db4o\Dependancies-Cecil.FlowAnalysis.netmodule
+G:\SQLInterfaces\DotNet\Bin\Db4o\Dependancies-Castle.Core.netmodule
+G:\SQLInterfaces\DotNet\Bin\Db4o\Db4o-Official.pdb
+G:\SQLInterfaces\DotNet\Db4o-Official\obj\Release\Db4o-Official.netmodule
+G:\SQLInterfaces\DotNet\Db4o-Official\obj\Release\Db4o-Official.pdb

@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A9CB2922-DEA6-4BA9-BDD6-DD26A9033D3D}</ProjectGuid>
+    <OutputType>Module</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HyperNetDatabase</RootNamespace>
+    <AssemblyName>HyperNetDB-Official</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\Bin\Db4o\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>..\Bin\HyperNetDB-Official.xml</DocumentationFile>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <NoWarn>1587;1570;1573;618;168;1591;</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Remoting" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.XML" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="IDatabase.cs" />
+    <Compile Include="LogToFileSupport.cs" />
+    <Compile Include="R1\Database.cs" />
+    <Compile Include="R2\Database.cs" />
+    <Compile Include="R2\HNDBSVR.cs" />
+    <Compile Include="R2\IHNDBSVR.cs" />
+    <Compile Include="SQLOps.cs" />
+    <Compile Include="SupportClasses\DataGridImageColumn.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SupportClasses\DataTable2.cs" />
+    <Compile Include="SupportClasses\DictionarySet.cs" />
+    <Compile Include="SupportClasses\HashedSet.cs" />
+    <Compile Include="SupportClasses\HybridSet.cs" />
+    <Compile Include="SupportClasses\ImmutableSet.cs" />
+    <Compile Include="SupportClasses\ISet.cs" />
+    <Compile Include="SupportClasses\ListSet.cs" />
+    <Compile Include="SupportClasses\LongSet.cs" />
+    <Compile Include="SupportClasses\Set.cs" />
+    <Compile Include="SupportClasses\SortedSet.cs" />
+    <Compile Include="SupportClasses\SynchronizedSet.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="XML_DOC.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

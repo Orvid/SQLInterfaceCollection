@@ -1,0 +1,9 @@
+G:\SQLInterfaces\DotNet\NeoDatis-Official\bin\Release\NeoDatis-Official.dll
+G:\SQLInterfaces\DotNet\NeoDatis-Official\bin\Release\NeoDatis-Official.pdb
+G:\SQLInterfaces\DotNet\NeoDatis-Official\obj\Release\ResolveAssemblyReference.cache
+G:\SQLInterfaces\DotNet\NeoDatis-Official\obj\Release\NeoDatis-Official.pdb
+G:\SQLInterfaces\DotNet\NeoDatis-Official\bin\Release\NeoDatis-Official.XML
+G:\SQLInterfaces\DotNet\Bin\Db4o\NeoDatis-Official.xml
+G:\SQLInterfaces\DotNet\Bin\Db4o\NeoDatis-Official.netmodule
+G:\SQLInterfaces\DotNet\Bin\Db4o\NeoDatis-Official.pdb
+G:\SQLInterfaces\DotNet\NeoDatis-Official\obj\Release\NeoDatis-Official.netmodule

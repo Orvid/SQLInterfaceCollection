@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B1F4CFB4-0005-4D7D-812B-4D795CF41FFA}</ProjectGuid>
+    <OutputType>Module</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BerkeleyDB</RootNamespace>
+    <AssemblyName>BerkeleyDB-Official</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\Bin\Db4o\</OutputPath>
+    <DefineConstants>TRACE;BDB_PACK8;BDB_4_5_20;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DocumentationFile>..\Bin\Db4o\BerkeleyDB-Official.xml</DocumentationFile>
+    <NoWarn>1591;3021;419;</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Common.cs" />
+    <Compile Include="DB.cs" />
+    <Compile Include="DBC.cs" />
+    <Compile Include="DBC_Wrap.cs" />
+    <Compile Include="DBT.cs" />
+    <Compile Include="DB_ENV.cs" />
+    <Compile Include="DB_ENV_Wrap.cs" />
+    <Compile Include="DB_LOCK.cs" />
+    <Compile Include="DB_LOCK_WRAP.cs" />
+    <Compile Include="DB_LOG.cs" />
+    <Compile Include="DB_LOG_WRAP.cs" />
+    <Compile Include="DB_MPOOL.cs" />
+    <Compile Include="DB_MPOOL_WRAP.cs" />
+    <Compile Include="DB_SEQUENCE.cs" />
+    <Compile Include="DB_SEQUENCE_Wrap.cs" />
+    <Compile Include="DB_TXN.cs" />
+    <Compile Include="DB_TXN_Wrap.cs" />
+    <Compile Include="DB_Wrap.cs" />
+    <Compile Include="LibDb.cs" />
+    <Compile Include="Serialization\BEConverter.cs" />
+    <Compile Include="Serialization\BufferSerialization.cs" />
+    <Compile Include="Serialization\Serialization.cs" />
+    <Compile Include="Util.cs" />
+    <Compile Include="Utils\BdbFormatter.cs" />
+    <Compile Include="XA.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

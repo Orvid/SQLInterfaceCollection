@@ -1,3 +1,9 @@
+We now support both Java and .Net!
+Please note, the "Modular" version of the .Net branch DOES NOT WORK!
+So don't use it. Please instead use the "Classic" Branch.
+
+
+
 This is a universal interface for many types of databases, it currently supports the following types of databases:
 
 1. BerklyDB

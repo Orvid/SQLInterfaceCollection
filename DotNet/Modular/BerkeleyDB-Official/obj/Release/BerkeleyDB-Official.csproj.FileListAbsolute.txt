@@ -1,0 +1,12 @@
+G:\SQLInterfaces\DotNet\BerkeleyDB-Official\obj\Release\ResolveAssemblyReference.cache
+G:\SQLInterfaces\DotNet\BerkeleyDB-Official\bin\Release\BerkeleyDB-Official.dll
+G:\SQLInterfaces\DotNet\BerkeleyDB-Official\bin\Release\BerkeleyDB-Official.pdb
+G:\SQLInterfaces\DotNet\BerkeleyDB-Official\obj\Release\BerkeleyDB-Official.pdb
+G:\SQLInterfaces\DotNet\BerkeleyDB-Official\bin\Release\BerkeleyDB-Official.XML
+G:\SQLInterfaces\DotNet\Bin\BerkeleyDB-Official.xml
+G:\SQLInterfaces\DotNet\Bin\BerkeleyDB-Official.netmodule
+G:\SQLInterfaces\DotNet\Bin\BerkeleyDB-Official.pdb
+G:\SQLInterfaces\DotNet\BerkeleyDB-Official\obj\Release\BerkeleyDB-Official.netmodule
+G:\SQLInterfaces\DotNet\Bin\Db4o\BerkeleyDB-Official.xml
+G:\SQLInterfaces\DotNet\Bin\Db4o\BerkeleyDB-Official.netmodule
+G:\SQLInterfaces\DotNet\Bin\Db4o\BerkeleyDB-Official.pdb

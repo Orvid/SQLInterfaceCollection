@@ -1,0 +1,14 @@
+G:\SQLInterfaces\DotNet\MySQL-Official\obj\Release\ResolveAssemblyReference.cache
+G:\SQLInterfaces\DotNet\MySQL-Official\obj\Release\MySQL.Data.Entity.Properties.Resources.resources
+G:\SQLInterfaces\DotNet\MySQL-Official\obj\Release\MySQL.Data.Resources.resources
+G:\SQLInterfaces\DotNet\MySQL-Official\obj\Release\GenerateResource-ResGen.read.1.tlog
+G:\SQLInterfaces\DotNet\MySQL-Official\obj\Release\GenerateResource.read.1.tlog
+G:\SQLInterfaces\DotNet\MySQL-Official\obj\Release\GenerateResource-ResGen.write.1.tlog
+G:\SQLInterfaces\DotNet\MySQL-Official\bin\Release\MySQL-Official.XML
+G:\SQLInterfaces\DotNet\MySQL-Official\bin\Release\MySQL-Official.dll
+G:\SQLInterfaces\DotNet\MySQL-Official\bin\Release\MySQL-Official.pdb
+G:\SQLInterfaces\DotNet\MySQL-Official\obj\Release\MySQL-Official.pdb
+G:\SQLInterfaces\DotNet\Bin\Db4o\MySQL-Official.xml
+G:\SQLInterfaces\DotNet\Bin\Db4o\MySQL-Official.netmodule
+G:\SQLInterfaces\DotNet\Bin\Db4o\MySQL-Official.pdb
+G:\SQLInterfaces\DotNet\MySQL-Official\obj\Release\MySQL-Official.netmodule

@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B4F81995-CCEF-41F8-9B39-58ABD0A0A37C}</ProjectGuid>
+    <OutputType>Module</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MySQL</RootNamespace>
+    <AssemblyName>MySQL-Official</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\Bin\Db4o\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>..\Bin\Db4o\MySQL-Official.xml</DocumentationFile>
+    <NoWarn>1591;414;649;169;618;219;1574;</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Data.Entity\EFMySqlCommand.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Data.Entity\EFMySqlDataReader.cs" />
+    <Compile Include="Data.Entity\Fragments\InputFragment.cs" />
+    <Compile Include="Data.Entity\Fragments\JoinFragment.cs" />
+    <Compile Include="Data.Entity\Fragments\SqlFragment.cs" />
+    <Compile Include="Data.Entity\Fragments\TableFragment.cs" />
+    <Compile Include="Data.Entity\Generators\DeleteGenerator.cs" />
+    <Compile Include="Data.Entity\Generators\FunctionGenerator.cs" />
+    <Compile Include="Data.Entity\Generators\FunctionProcessor.cs" />
+    <Compile Include="Data.Entity\Generators\InsertGenerator.cs" />
+    <Compile Include="Data.Entity\Generators\Scope.cs" />
+    <Compile Include="Data.Entity\Generators\SelectGenerator.cs" />
+    <Compile Include="Data.Entity\Generators\SqlGenerator.cs" />
+    <Compile Include="Data.Entity\Generators\UpdateGenerator.cs" />
+    <Compile Include="Data.Entity\Metadata.cs" />
+    <Compile Include="Data.Entity\Properties\Resources.Designer.cs" />
+    <Compile Include="Data.Entity\ProviderManifest.cs" />
+    <Compile Include="Data.Entity\ProviderServices.cs" />
+    <Compile Include="Data.Entity\Statements\DeleteStatement.cs" />
+    <Compile Include="Data.Entity\Statements\InsertStatement.cs" />
+    <Compile Include="Data.Entity\Statements\SelectStatement.cs" />
+    <Compile Include="Data.Entity\Statements\UpdateStatement.cs" />
+    <Compile Include="Data\BulkLoader.cs" />
+    <Compile Include="Data\CharSetMap.cs" />
+    <Compile Include="Data\command.cs" />
+    <Compile Include="Data\CommandBuilder.cs" />
+    <Compile Include="Data\common\Cache.cs" />
+    <Compile Include="Data\common\ContextString.cs" />
+    <Compile Include="Data\common\LowResolutionStopwatch.cs" />
+    <Compile Include="Data\common\MyNetworkStream.cs" />
+    <Compile Include="Data\common\MySqlTokenizer.cs" />
+    <Compile Include="Data\common\NamedPipeStream.cs" />
+    <Compile Include="Data\common\NativeMethods.cs" />
+    <Compile Include="Data\common\Platform.cs" />
+    <Compile Include="Data\common\QueryNormalizer.cs" />
+    <Compile Include="Data\common\SHA1.cs" />
+    <Compile Include="Data\common\SharedMemoryStream.cs" />
+    <Compile Include="Data\common\SocketStream.cs" />
+    <Compile Include="Data\common\StreamCreator.cs" />
+    <Compile Include="Data\common\Version.cs" />
+    <Compile Include="Data\CompressedStream.cs" />
+    <Compile Include="Data\Connection.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Data\Crypt.cs" />
+    <Compile Include="Data\dataadapter.cs" />
+    <Compile Include="Data\datareader.cs" />
+    <Compile Include="Data\Driver.cs" />
+    <Compile Include="Data\Exception.cs" />
+    <Compile Include="Data\Field.cs" />
+    <Compile Include="Data\Installer.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Data\ISSchemaProvider.cs" />
+    <Compile Include="Data\MySqlClientFactory.cs" />
+    <Compile Include="Data\MySqlConnectionStringBuilder.cs" />
+    <Compile Include="Data\MysqlDefs.cs" />
+    <Compile Include="Data\MySqlError.cs" />
+    <Compile Include="Data\MySqlHelper.cs" />
+    <Compile Include="Data\MySqlPacket.cs" />
+    <Compile Include="Data\MySqlPool.cs" />
+    <Compile Include="Data\MySqlPoolManager.cs" />
+    <Compile Include="Data\MySqlPromotableTransaction.cs" />
+    <Compile Include="Data\MySqlScript.cs" />
+    <Compile Include="Data\MySqlStream.cs" />
+    <Compile Include="Data\MySqlTrace.cs" />
+    <Compile Include="Data\NativeDriver.cs" />
+    <Compile Include="Data\parameter.cs" />
+    <Compile Include="Data\parameter_collection.cs" />
+    <Compile Include="Data\PerformanceMonitor.cs" />
+    <Compile Include="Data\PreparableStatement.cs" />
+    <Compile Include="Data\ProcedureCache.cs" />
+    <Compile Include="Data\Resources.Designer.cs" />
+    <Compile Include="Data\ResultSet.cs" />
+    <Compile Include="Data\Runtime.cs" />
+    <Compile Include="Data\SchemaProvider.cs" />
+    <Compile Include="Data\Statement.cs" />
+    <Compile Include="Data\StoredProcedure.cs" />
+    <Compile Include="Data\TimedStream.cs" />
+    <Compile Include="Data\TracingDriver.cs" />
+    <Compile Include="Data\transaction.cs" />
+    <Compile Include="Data\Types\MetaData.cs" />
+    <Compile Include="Data\Types\MySqlBinary.cs" />
+    <Compile Include="Data\Types\MySqlBit.cs" />
+    <Compile Include="Data\Types\MySqlByte.cs" />
+    <Compile Include="Data\Types\MySqlConversionException.cs" />
+    <Compile Include="Data\Types\MySqlDateTime.cs" />
+    <Compile Include="Data\Types\MySqlDecimal.cs" />
+    <Compile Include="Data\Types\MySqlDouble.cs" />
+    <Compile Include="Data\Types\MySqlGuid.cs" />
+    <Compile Include="Data\Types\MySqlInt16.cs" />
+    <Compile Include="Data\Types\MySqlInt32.cs" />
+    <Compile Include="Data\Types\MySqlInt64.cs" />
+    <Compile Include="Data\Types\MySqlSingle.cs" />
+    <Compile Include="Data\Types\MySqlString.cs" />
+    <Compile Include="Data\Types\MySqlTime.cs" />
+    <Compile Include="Data\Types\MySqlUByte.cs" />
+    <Compile Include="Data\Types\MySqlUInt16.cs" />
+    <Compile Include="Data\Types\MySqlUInt32.cs" />
+    <Compile Include="Data\Types\MySqlUInt64.cs" />
+    <Compile Include="Data\Types\MySqlValue.cs" />
+    <Compile Include="Data\zlib\Adler32.cs" />
+    <Compile Include="Data\zlib\Deflate.cs" />
+    <Compile Include="Data\zlib\InfBlocks.cs" />
+    <Compile Include="Data\zlib\InfCodes.cs" />
+    <Compile Include="Data\zlib\Inflate.cs" />
+    <Compile Include="Data\zlib\InfTree.cs" />
+    <Compile Include="Data\zlib\StaticTree.cs" />
+    <Compile Include="Data\zlib\SupportClass.cs" />
+    <Compile Include="Data\zlib\Tree.cs" />
+    <Compile Include="Data\zlib\ZInputStream.cs" />
+    <Compile Include="Data\zlib\Zlib.cs" />
+    <Compile Include="Data\zlib\ZOutputStream.cs" />
+    <Compile Include="Data\zlib\ZStream.cs" />
+    <Compile Include="Data\zlib\ZStreamException.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Data.Entity\Properties\ProviderManifest.xml" />
+    <Content Include="Data\docs\MySqlCommand.xml" />
+    <Content Include="Data\docs\MySqlCommandBuilder.xml" />
+    <Content Include="Data\docs\MySqlConnection.xml" />
+    <Content Include="Data\docs\MySqlConnectionStringBuilder.xml" />
+    <Content Include="Data\docs\MySqlDataAdapter.xml" />
+    <Content Include="Data\docs\MySqlDataReader.xml" />
+    <Content Include="Data\docs\MySqlException.xml" />
+    <Content Include="Data\docs\MySqlHelper.xml" />
+    <Content Include="Data\docs\MySqlParameter.xml" />
+    <Content Include="Data\docs\MySqlParameterCollection.xml" />
+    <Content Include="Data\docs\MySqlTransaction.xml" />
+    <Content Include="Data\keywords.txt" />
+    <Content Include="Data\ReservedWords.txt" />
+    <EmbeddedResource Include="Data.Entity\Properties\Resources.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Data\Resources.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Data.Entity\Properties\SchemaDefinition-5.0.ssdl" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Data.Entity\Properties\SchemaDefinition-5.1.ssdl" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Data.Entity\Properties\SchemaDefinition-6.0.ssdl" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Data.Entity\Properties\SchemaMapping.msl" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

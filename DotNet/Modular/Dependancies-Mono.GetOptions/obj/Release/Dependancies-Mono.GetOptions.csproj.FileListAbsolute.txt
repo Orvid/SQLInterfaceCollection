@@ -1,0 +1,6 @@
+G:\SQLInterfaces\DotNet\Bin\Dependancies-Mono.GetOptions.xml
+G:\SQLInterfaces\DotNet\Bin\Dependancies-Mono.GetOptions.pdb
+G:\SQLInterfaces\DotNet\Dependancies-Mono.GetOptions\obj\Release\ResolveAssemblyReference.cache
+G:\SQLInterfaces\DotNet\Dependancies-Mono.GetOptions\obj\Release\Dependancies-Mono.GetOptions.pdb
+G:\SQLInterfaces\DotNet\Bin\Dependancies-Mono.GetOptions.netmodule
+G:\SQLInterfaces\DotNet\Dependancies-Mono.GetOptions\obj\Release\Dependancies-Mono.GetOptions.netmodule

@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{947D2DC8-61D6-4A9B-8A25-F9465E82CC23}</ProjectGuid>
+    <OutputType>Module</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Community.CSharpSqlite.SQLiteClient</RootNamespace>
+    <AssemblyName>SQLite-Community.CSharpSqlite.SQLiteClient</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\Bin\Db4o\</OutputPath>
+    <DefineConstants>TRUE;WIN32;_MSC_VER;NDEBUG;NO_TCL;SQLITE_ASCII;SQLITE_DISABLE_LFS;SQLITE_ENABLE_OVERSIZE_CELL_CHECK;SQLITE_OS_WIN;SQLITE_SYSTEM_MALLOC;SQLITE_HAS_CODEC;NET_35;SQLITE_OMIT_TRACE;SQLITE_OMIT_VIRTUALTABLE;SQLITE_OMIT_SHARED_CACHE;SQLITE_OMIT_GET_TABLE;SQLITE_OMIT_INCRBLOB;SQLITE_OMIT_LOOKASIDE;VDBE_PROFILE_OFF;SQLITE_OMIT_WAL;SQLITE_OMIT_UTF16;SQLITE_OMIT_DEPRECATED;SQLITE_OMIT_AUTHORIZATION;SQLITE_MUTEX_OMIT;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0168;0169;0414;0618;0649;1587;1591;1685;419;</NoWarn>
+    <DocumentationFile>..\Bin\Db4o\SQLite-Community.CSharpSqlite.SQLiteClient.xml</DocumentationFile>
+    <LangVersion>default</LangVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="alter_c.cs" />
+    <Compile Include="analyze_c.cs" />
+    <Compile Include="attach_c.cs" />
+    <Compile Include="auth_c.cs" />
+    <Compile Include="backup_c.cs" />
+    <Compile Include="bitvec_c.cs" />
+    <Compile Include="btmutex_c.cs" />
+    <Compile Include="BtreeInt_h.cs" />
+    <Compile Include="btree_c.cs" />
+    <Compile Include="Btree_h.cs" />
+    <Compile Include="build_c.cs" />
+    <Compile Include="callback_c.cs" />
+    <Compile Include="complete_c.cs" />
+    <Compile Include="crypto.cs" />
+    <Compile Include="ctime_c.cs" />
+    <Compile Include="date_c.cs" />
+    <Compile Include="Delegates.cs" />
+    <Compile Include="delete_c.cs" />
+    <Compile Include="expr_c.cs" />
+    <Compile Include="fault_c.cs" />
+    <Compile Include="fkey_c.cs" />
+    <Compile Include="func_c.cs" />
+    <Compile Include="global_c.cs" />
+    <Compile Include="hash_c.cs" />
+    <Compile Include="Hash_h.cs" />
+    <Compile Include="hwtime_c.cs" />
+    <Compile Include="insert_c.cs" />
+    <Compile Include="journal_c.cs" />
+    <Compile Include="keywordhash_h.cs" />
+    <Compile Include="legacy_c.cs" />
+    <Compile Include="loadext_c.cs" />
+    <Compile Include="main_c.cs" />
+    <Compile Include="malloc_c.cs" />
+    <Compile Include="memjournal_c.cs" />
+    <Compile Include="mem_Pool.cs" />
+    <Compile Include="mutex_c.cs" />
+    <Compile Include="mutex_h.cs" />
+    <Compile Include="mutex_noop_c.cs" />
+    <Compile Include="mutex_w32.cs" />
+    <Compile Include="notify_c.cs" />
+    <Compile Include="opcodes_c.cs" />
+    <Compile Include="opcodes_h.cs" />
+    <Compile Include="os_c.cs" />
+    <Compile Include="os_common_h.cs" />
+    <Compile Include="os_h.cs" />
+    <Compile Include="os_win_c.cs" />
+    <Compile Include="pager_c.cs" />
+    <Compile Include="pager_h.cs" />
+    <Compile Include="parse_c.cs" />
+    <Compile Include="parse_h.cs" />
+    <Compile Include="pcache1_c.cs" />
+    <Compile Include="pcache_c.cs" />
+    <Compile Include="pcache_h.cs" />
+    <Compile Include="pragma_c.cs" />
+    <Compile Include="prepare_c.cs" />
+    <Compile Include="printf_c.cs" />
+    <Compile Include="random_c.cs" />
+    <Compile Include="resolve_c.cs" />
+    <Compile Include="rowset_c.cs" />
+    <Compile Include="select_c.cs" />
+    <Compile Include="sqlite3_h.cs" />
+    <Compile Include="SqliteClientFactory.cs" />
+    <Compile Include="SqliteCommand.cs" />
+    <Compile Include="SqliteCommandBuilder.cs" />
+    <Compile Include="SqliteConnection.cs" />
+    <Compile Include="SqliteConnectionStringBuilder.cs" />
+    <Compile Include="SqliteDataAdapter.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SqliteDataReader.cs" />
+    <Compile Include="SqliteDataSourceEnumerator.cs" />
+    <Compile Include="SqliteError.cs" />
+    <Compile Include="SqliteExceptions.cs" />
+    <Compile Include="sqliteInt_h.cs" />
+    <Compile Include="sqliteLimit_h.cs" />
+    <Compile Include="SqliteParameter.cs" />
+    <Compile Include="SqliteParameterCollection.cs" />
+    <Compile Include="SqliteRowUpdatedEventArgs.cs" />
+    <Compile Include="SqliteRowUpdatedEventHandler.cs" />
+    <Compile Include="SqliteRowUpdatingEventArgs.cs" />
+    <Compile Include="SqliteRowUpdatingEventHandler.cs" />
+    <Compile Include="SqliteTransaction.cs" />
+    <Compile Include="status_c.cs" />
+    <Compile Include="table_c.cs" />
+    <Compile Include="tokenize_c.cs" />
+    <Compile Include="trigger_c.cs" />
+    <Compile Include="update_c.cs" />
+    <Compile Include="utf_c.cs" />
+    <Compile Include="util_c.cs" />
+    <Compile Include="vacuum_c.cs" />
+    <Compile Include="vdbeapi_c.cs" />
+    <Compile Include="vdbeaux_c.cs" />
+    <Compile Include="vdbeblob_c.cs" />
+    <Compile Include="VdbeInt_h.cs" />
+    <Compile Include="vdbemem_c.cs" />
+    <Compile Include="vdbetrace_c.cs" />
+    <Compile Include="vdbe_c.cs" />
+    <Compile Include="Vdbe_h.cs" />
+    <Compile Include="vtab_c.cs" />
+    <Compile Include="walker_c.cs" />
+    <Compile Include="wal_c.cs" />
+    <Compile Include="wal_h.cs" />
+    <Compile Include="where_c.cs" />
+    <Compile Include="_Custom.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

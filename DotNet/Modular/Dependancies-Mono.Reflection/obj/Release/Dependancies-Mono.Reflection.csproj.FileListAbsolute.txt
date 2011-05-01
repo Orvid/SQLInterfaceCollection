@@ -1,0 +1,6 @@
+G:\SQLInterfaces\DotNet\Bin\Dependancies-Mono.Reflection.xml
+G:\SQLInterfaces\DotNet\Bin\Dependancies-Mono.Reflection.pdb
+G:\SQLInterfaces\DotNet\Dependancies-Mono.Reflection\obj\Release\ResolveAssemblyReference.cache
+G:\SQLInterfaces\DotNet\Dependancies-Mono.Reflection\obj\Release\Dependancies-Mono.Reflection.pdb
+G:\SQLInterfaces\DotNet\Bin\Dependancies-Mono.Reflection.netmodule
+G:\SQLInterfaces\DotNet\Dependancies-Mono.Reflection\obj\Release\Dependancies-Mono.Reflection.netmodule

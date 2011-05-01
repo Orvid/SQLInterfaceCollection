@@ -1,0 +1,8 @@
+G:\SQLInterfaces\DotNet\Dependancies-Castle.Core\bin\Release\Dependancies-Castle.Core.dll
+G:\SQLInterfaces\DotNet\Dependancies-Castle.Core\bin\Release\Dependancies-Castle.Core.pdb
+G:\SQLInterfaces\DotNet\Bin\Dependancies-Castle.Core.xml
+G:\SQLInterfaces\DotNet\Bin\Dependancies-Castle.Core.netmodule
+G:\SQLInterfaces\DotNet\Bin\Dependancies-Castle.Core.pdb
+G:\SQLInterfaces\DotNet\Dependancies-Castle.Core\obj\Release\ResolveAssemblyReference.cache
+G:\SQLInterfaces\DotNet\Dependancies-Castle.Core\obj\Release\Dependancies-Castle.Core.netmodule
+G:\SQLInterfaces\DotNet\Dependancies-Castle.Core\obj\Release\Dependancies-Castle.Core.pdb

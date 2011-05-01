@@ -1,0 +1,14 @@
+G:\SQLInterfaces\DotNet\FirebirdSQL-Official\obj\Release\ResolveAssemblyReference.cache
+G:\SQLInterfaces\DotNet\FirebirdSQL-Official\obj\Release\FirebirdSQL.Data.Resources.isc_error_msg.resources
+G:\SQLInterfaces\DotNet\FirebirdSQL-Official\obj\Release\FirebirdSQL.Data.Resources.sqlstate_mapping.resources
+G:\SQLInterfaces\DotNet\FirebirdSQL-Official\obj\Release\GenerateResource-ResGen.read.1.tlog
+G:\SQLInterfaces\DotNet\FirebirdSQL-Official\obj\Release\GenerateResource.read.1.tlog
+G:\SQLInterfaces\DotNet\FirebirdSQL-Official\obj\Release\GenerateResource-ResGen.write.1.tlog
+G:\SQLInterfaces\DotNet\FirebirdSQL-Official\bin\Release\FirebirdSQL-Official.XML
+G:\SQLInterfaces\DotNet\FirebirdSQL-Official\bin\Release\FirebirdSQL-Official.dll
+G:\SQLInterfaces\DotNet\FirebirdSQL-Official\bin\Release\FirebirdSQL-Official.pdb
+G:\SQLInterfaces\DotNet\FirebirdSQL-Official\obj\Release\FirebirdSQL-Official.pdb
+G:\SQLInterfaces\DotNet\Bin\Db4o\FirebirdSQL-Official.xml
+G:\SQLInterfaces\DotNet\Bin\Db4o\FirebirdSQL-Official.netmodule
+G:\SQLInterfaces\DotNet\Bin\Db4o\FirebirdSQL-Official.pdb
+G:\SQLInterfaces\DotNet\FirebirdSQL-Official\obj\Release\FirebirdSQL-Official.netmodule

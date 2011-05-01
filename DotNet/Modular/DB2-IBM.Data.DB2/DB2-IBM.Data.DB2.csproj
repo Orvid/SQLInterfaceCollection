@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A58981DA-C464-441D-9D1A-98ED63D5B40C}</ProjectGuid>
+    <OutputType>Module</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>IBM.Data.DB2</RootNamespace>
+    <AssemblyName>DB2-IBM.Data.DB2</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\Bin\Db4o\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DocumentationFile>..\Bin\Db4o\DB2-IBM.Data.DB2.xml</DocumentationFile>
+    <NoWarn>169;1591;1587;1572;1573;108;1570;1574;</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.XML" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DB2ClientUtils.cs" />
+    <Compile Include="DB2CLIWrapper.cs" />
+    <Compile Include="DB2Command.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DB2CommandBuilder.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DB2Connection.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DB2ConnectionPool.cs" />
+    <Compile Include="DB2ConnectionSettings.cs" />
+    <Compile Include="DB2Constants.cs" />
+    <Compile Include="DB2DataAdapter.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DB2DataReader.cs" />
+    <Compile Include="DB2Environment.cs" />
+    <Compile Include="DB2Error.cs" />
+    <Compile Include="DB2ErrorCollection.cs" />
+    <Compile Include="DB2Exception.cs" />
+    <Compile Include="DB2InfoMessageEventHandler.cs" />
+    <Compile Include="DB2OpenConnection.cs" />
+    <Compile Include="DB2Parameter.cs" />
+    <Compile Include="DB2ParameterCollection.cs" />
+    <Compile Include="DB2RowUpdatedEventArgs.cs" />
+    <Compile Include="DB2RowUpdatedEventHandler.cs" />
+    <Compile Include="DB2RowUpdatingEventArgs.cs" />
+    <Compile Include="DB2RowUpdatingEventHandler.cs" />
+    <Compile Include="DB2Transaction.cs" />
+    <Compile Include="DB2Type.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

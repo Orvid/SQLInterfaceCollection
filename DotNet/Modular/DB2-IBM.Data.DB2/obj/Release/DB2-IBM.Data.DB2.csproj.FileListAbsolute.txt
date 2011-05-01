@@ -1,0 +1,9 @@
+G:\SQLInterfaces\DotNet\DB2-IBM.Data.DB2\obj\Release\ResolveAssemblyReference.cache
+G:\SQLInterfaces\DotNet\DB2-IBM.Data.DB2\bin\Release\DB2-IBM.Data.DB2.dll
+G:\SQLInterfaces\DotNet\DB2-IBM.Data.DB2\bin\Release\DB2-IBM.Data.DB2.pdb
+G:\SQLInterfaces\DotNet\DB2-IBM.Data.DB2\obj\Release\DB2-IBM.Data.DB2.pdb
+G:\SQLInterfaces\DotNet\DB2-IBM.Data.DB2\bin\Release\DB2-IBM.Data.DB2.XML
+G:\SQLInterfaces\DotNet\Bin\Db4o\DB2-IBM.Data.DB2.xml
+G:\SQLInterfaces\DotNet\Bin\Db4o\DB2-IBM.Data.DB2.netmodule
+G:\SQLInterfaces\DotNet\Bin\Db4o\DB2-IBM.Data.DB2.pdb
+G:\SQLInterfaces\DotNet\DB2-IBM.Data.DB2\obj\Release\DB2-IBM.Data.DB2.netmodule

@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Release</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{FF12AA73-57F9-4FFB-B063-0C29B25DCFD3}</ProjectGuid>
+    <OutputType>Module</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>System.Data.SQLite</RootNamespace>
+    <AssemblyName>SQLite-System.Data.SQLite</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\Bin\Db4o\</OutputPath>
+    <DefineConstants>TRACE;SQLITE_STANDARD;NET_20;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>..\Bin\Db4o\SQLite-System.Data.SQLite.xml</DocumentationFile>
+    <NoWarn>1587;649;1573;1571;1710;1658;1572;1584;</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Linq\SQL Generation\DmlSqlGenerator.cs" />
+    <Compile Include="Linq\SQL Generation\InternalBase.cs" />
+    <Compile Include="Linq\SQL Generation\ISqlFragment.cs" />
+    <Compile Include="Linq\SQL Generation\JoinSymbol.cs" />
+    <Compile Include="Linq\SQL Generation\KeyToListMap.cs" />
+    <Compile Include="Linq\SQL Generation\MetadataHelpers.cs" />
+    <Compile Include="Linq\SQL Generation\SqlBuilder.cs" />
+    <Compile Include="Linq\SQL Generation\SqlChecker.cs" />
+    <Compile Include="Linq\SQL Generation\SqlGenerator.cs" />
+    <Compile Include="Linq\SQL Generation\SqlSelectStatement.cs" />
+    <Compile Include="Linq\SQL Generation\SqlWriter.cs" />
+    <Compile Include="Linq\SQL Generation\StringUtil.cs" />
+    <Compile Include="Linq\SQL Generation\Symbol.cs" />
+    <Compile Include="Linq\SQL Generation\SymbolPair.cs" />
+    <Compile Include="Linq\SQL Generation\SymbolTable.cs" />
+    <Compile Include="Linq\SQL Generation\TopClause.cs" />
+    <Compile Include="Linq\SQLiteProviderManifest.cs" />
+    <Compile Include="Linq\SQLiteProviderServices.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SQLiteEnlistment.cs" />
+    <Compile Include="Linq\SQLiteConnection_Linq.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Linq\SQLiteFactory_Linq.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQLiteCommand.bmp" />
+    <EmbeddedResource Include="SQLiteConnection.bmp" />
+    <EmbeddedResource Include="SQLiteDataAdapter.bmp" />
+    <Compile Include="SQLite3.cs" />
+    <Compile Include="SQLite3_UTF16.cs" />
+    <Compile Include="SQLiteBase.cs" />
+    <Compile Include="SQLiteCommand.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SQLiteCommandBuilder.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SQLiteConnection.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SQLiteConnectionPool.cs" />
+    <Compile Include="SQLiteConnectionStringBuilder.cs" />
+    <Compile Include="SQLiteConvert.cs" />
+    <Compile Include="SQLiteDataAdapter.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SQLiteDataReader.cs" />
+    <Compile Include="SQLiteException.cs" />
+    <Compile Include="SQLiteFactory.cs" />
+    <Compile Include="SQLiteFunction.cs" />
+    <Compile Include="SQLiteFunctionAttribute.cs" />
+    <Compile Include="SQLiteKeyReader.cs" />
+    <Compile Include="SQLiteMetaDataCollectionNames.cs" />
+    <Compile Include="SQLiteParameter.cs" />
+    <Compile Include="SQLiteParameterCollection.cs" />
+    <Compile Include="SQLiteStatement.cs" />
+    <Compile Include="SQLiteTransaction.cs" />
+    <Compile Include="SR.Designer.cs">
+      <DependentUpon>SR.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="UnsafeNativeMethods.cs" />
+    <EmbeddedResource Include="SR.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>SR.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Linq\Resources\Common.ConceptualSchemaDefinition.csdl" />
+    <EmbeddedResource Include="Linq\Resources\SQLiteProviderServices.StoreSchemaDefinition.ssdl" />
+    <EmbeddedResource Include="Linq\Resources\SQLiteProviderServices.StoreSchemaMapping.msl" />
+    <EmbeddedResource Include="Linq\SQL Generation\License.txt" />
+    <EmbeddedResource Include="Linq\Resources\SQLiteProviderServices.ProviderManifest.xml" />
+    <EmbeddedResource Include="Linq\Resources\System.Data.Resources.CodeGenerationSchema.xsd">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Linq\Resources\System.Data.Resources.CSDLSchema.xsd">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Linq\Resources\System.Data.Resources.CSMSL.xsd">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Linq\Resources\System.Data.Resources.EntityStoreSchemaGenerator.xsd">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Linq\Resources\System.Data.Resources.SSDLSchema.xsd">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Linq\Resources\Common.ProviderManifest.xsd">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataTypes.xml" />
+    <EmbeddedResource Include="MetaDataCollections.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

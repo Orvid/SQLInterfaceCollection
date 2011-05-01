@@ -1,0 +1,14 @@
+G:\SQLInterfaces\DotNet\Bin\SQLite-System.Data.SQLite.xml
+G:\SQLInterfaces\DotNet\Bin\SQLite-System.Data.SQLite.pdb
+G:\SQLInterfaces\DotNet\SQLite-System.Data.SQLite\obj\Release\ResolveAssemblyReference.cache
+G:\SQLInterfaces\DotNet\SQLite-System.Data.SQLite\obj\Release\System.Data.SQLite.Properties.Resources.resources
+G:\SQLInterfaces\DotNet\SQLite-System.Data.SQLite\obj\Release\System.Data.SQLite.SR.resources
+G:\SQLInterfaces\DotNet\SQLite-System.Data.SQLite\obj\Release\GenerateResource-ResGen.read.1.tlog
+G:\SQLInterfaces\DotNet\SQLite-System.Data.SQLite\obj\Release\GenerateResource.read.1.tlog
+G:\SQLInterfaces\DotNet\SQLite-System.Data.SQLite\obj\Release\GenerateResource-ResGen.write.1.tlog
+G:\SQLInterfaces\DotNet\SQLite-System.Data.SQLite\obj\Release\SQLite-System.Data.SQLite.pdb
+G:\SQLInterfaces\DotNet\Bin\SQLite-System.Data.SQLite.netmodule
+G:\SQLInterfaces\DotNet\SQLite-System.Data.SQLite\obj\Release\SQLite-System.Data.SQLite.netmodule
+G:\SQLInterfaces\DotNet\Bin\Db4o\SQLite-System.Data.SQLite.xml
+G:\SQLInterfaces\DotNet\Bin\Db4o\SQLite-System.Data.SQLite.netmodule
+G:\SQLInterfaces\DotNet\Bin\Db4o\SQLite-System.Data.SQLite.pdb

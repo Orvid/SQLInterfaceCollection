@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{55001B48-D122-49BF-B403-742ED88415FA}</ProjectGuid>
+    <OutputType>Module</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Mono.GetOptions</RootNamespace>
+    <AssemblyName>Dependancies-Mono.GetOptions</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\Bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>..\Bin\Dependancies-Mono.GetOptions.xml</DocumentationFile>
+    <NoWarn>1591;618;</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Mono.GetOptions.Useful\CommonCompilerOptions.cs" />
+    <Compile Include="Mono.GetOptions\ArgumentProcessorAttribute.cs" />
+    <Compile Include="Mono.GetOptions\KillOptionAttribute.cs" />
+    <Compile Include="Mono.GetOptions\OptionAttribute.cs" />
+    <Compile Include="Mono.GetOptions\OptionDetails.cs" />
+    <Compile Include="Mono.GetOptions\OptionList.cs" />
+    <Compile Include="Mono.GetOptions\Options.cs" />
+    <Compile Include="Mono.GetOptions\OptionsParsingMode.cs" />
+    <Compile Include="Mono\AboutAttribute.cs" />
+    <Compile Include="Mono\AdditionalInfoAttribute.cs" />
+    <Compile Include="Mono\AuthorAttribute.cs" />
+    <Compile Include="Mono\IsPartOfPackageAttribute.cs" />
+    <Compile Include="Mono\ReportBugsToAttribute.cs" />
+    <Compile Include="Mono\UsageComplementAttribute.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Mono.GetOptions.license.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

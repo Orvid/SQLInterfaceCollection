@@ -1,0 +1,15 @@
+G:\SQLInterfaces\DotNet\SQLite-Mono.Data.SQLite\obj\Release\ResolveAssemblyReference.cache
+G:\SQLInterfaces\DotNet\SQLite-Mono.Data.SQLite\obj\Release\Mono.Data.SQLite.Resources.SR.resources
+G:\SQLInterfaces\DotNet\SQLite-Mono.Data.SQLite\obj\Release\GenerateResource-ResGen.read.1.tlog
+G:\SQLInterfaces\DotNet\SQLite-Mono.Data.SQLite\obj\Release\GenerateResource.read.1.tlog
+G:\SQLInterfaces\DotNet\SQLite-Mono.Data.SQLite\obj\Release\GenerateResource-ResGen.write.1.tlog
+G:\SQLInterfaces\DotNet\Bin\SQLite-Mono.Data.SQLite.xml
+G:\SQLInterfaces\DotNet\Bin\SQLite-Mono.Data.SQLite.pdb
+G:\SQLInterfaces\DotNet\SQLite-Mono.Data.SQLite\obj\Release\SQLite-Mono.Data.SQLite.pdb
+G:\SQLInterfaces\DotNet\Bin\sqlite3.dll
+G:\SQLInterfaces\DotNet\Bin\SQLite-Mono.Data.SQLite.netmodule
+G:\SQLInterfaces\DotNet\SQLite-Mono.Data.SQLite\obj\Release\SQLite-Mono.Data.SQLite.netmodule
+G:\SQLInterfaces\DotNet\Bin\Db4o\sqlite3.dll
+G:\SQLInterfaces\DotNet\Bin\Db4o\SQLite-Mono.Data.SQLite.xml
+G:\SQLInterfaces\DotNet\Bin\Db4o\SQLite-Mono.Data.SQLite.netmodule
+G:\SQLInterfaces\DotNet\Bin\Db4o\SQLite-Mono.Data.SQLite.pdb

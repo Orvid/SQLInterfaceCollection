@@ -1,0 +1,9 @@
+G:\SQLInterfaces\DotNet\HyperNetDB-Official\obj\Release\ResolveAssemblyReference.cache
+G:\SQLInterfaces\DotNet\HyperNetDB-Official\bin\Release\HyperNetDB-Official.XML
+G:\SQLInterfaces\DotNet\HyperNetDB-Official\bin\Release\HyperNetDB-Official.dll
+G:\SQLInterfaces\DotNet\HyperNetDB-Official\bin\Release\HyperNetDB-Official.pdb
+G:\SQLInterfaces\DotNet\HyperNetDB-Official\obj\Release\HyperNetDB-Official.pdb
+G:\SQLInterfaces\DotNet\Bin\Db4o\HyperNetDB-Official.netmodule
+G:\SQLInterfaces\DotNet\Bin\Db4o\HyperNetDB-Official.pdb
+G:\SQLInterfaces\DotNet\Bin\Db4o\HyperNetDB-Official.xml
+G:\SQLInterfaces\DotNet\HyperNetDB-Official\obj\Release\HyperNetDB-Official.netmodule

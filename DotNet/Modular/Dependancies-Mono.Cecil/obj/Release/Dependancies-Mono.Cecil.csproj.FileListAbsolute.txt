@@ -1,0 +1,6 @@
+G:\SQLInterfaces\DotNet\Dependancies-Mono.Cecil\obj\Release\ResolveAssemblyReference.cache
+G:\SQLInterfaces\DotNet\Bin\Dependancies-Mono.Cecil.xml
+G:\SQLInterfaces\DotNet\Bin\Dependancies-Mono.Cecil.pdb
+G:\SQLInterfaces\DotNet\Dependancies-Mono.Cecil\obj\Release\Dependancies-Mono.Cecil.pdb
+G:\SQLInterfaces\DotNet\Bin\Dependancies-Mono.Cecil.netmodule
+G:\SQLInterfaces\DotNet\Dependancies-Mono.Cecil\obj\Release\Dependancies-Mono.Cecil.netmodule
